@@ -1,4 +1,4 @@
-# About Me 
+# About Me
 
 ## Repositories
 
@@ -31,3 +31,8 @@ Install Visual Studio Code:
 1. GitHub Guide - https://github.com/antonykidis/GitHub-guide
 1. Web Developers Acheivement Guide - https://github.com/WebDev-Guild/webdev-guild.github.io 
 
+## Contributors 
+
+Nathan Meeker 
+Interactive Digital Media: Computer Science Programming,
+and General Business
