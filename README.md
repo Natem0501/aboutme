@@ -30,5 +30,3 @@ Install Visual Studio Code:
 1. Web Starter Kit - https://github.com/yrgo/web-starter-kit
 1. GitHub Guide - https://github.com/antonykidis/GitHub-guide
 1. Web Developers Acheivement Guide - https://github.com/WebDev-Guild/webdev-guild.github.io 
-
-![Hosted image](https://raw.githubusercontent.com/Natem0501/aboutme/master/NathanMeekerProfessional.jpg)
