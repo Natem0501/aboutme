@@ -31,4 +31,4 @@ Install Visual Studio Code:
 1. GitHub Guide - https://github.com/antonykidis/GitHub-guide
 1. Web Developers Acheivement Guide - https://github.com/WebDev-Guild/webdev-guild.github.io 
 
-https://raw.githubusercontent.com/Natem0501/aboutme/master/NathanMeekerProfessional.jpg
+![Hosted image](https://raw.githubusercontent.com/Natem0501/aboutme/master/NathanMeekerProfessional.jpg)
