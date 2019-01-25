@@ -36,5 +36,5 @@ Install Visual Studio Code:
 Nathan Meeker 
 Interactive Digital Media: Computer Science Programming,
 and General Business
-![Hosted image](https://raw.githubusercontent.com/Natem0501/aboutme/master/NathanMeekerProfessional.jpg) 
+![Hosted image](https://raw.githubusercontent.com/Natem0501/aboutme/3b994f3c78339c25a2af93663a4f4575e99d2eee/NathanMeekerProfessional.jpg)
 
