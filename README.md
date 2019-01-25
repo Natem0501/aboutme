@@ -20,16 +20,16 @@ Install TortoiseGit:
 1. OR Install TortoiseGit from <https://tortoisegit.org/>. TortoiseGit integrates with Windows File Explorer, making it fast and easy to execute most of the typical Git commands used every day.
 
 Install GitHub Desktop:
-- Using Windows/64-bit Version - https://desktop.github.com/
+- Using Windows/64-bit Version - see https://desktop.github.com/
 
 Install Visual Studio Code:
-- Using Windows/64-bit version - https://code.visualstudio.com/download
+- Using Windows/64-bit version - see https://code.visualstudio.com/download
 
 ## Recommended Resources
 
-1. Web Starter Kit - https://github.com/yrgo/web-starter-kit
-1. GitHub Guide - https://github.com/antonykidis/GitHub-guide
-1. Web Developers Acheivement Guide - https://github.com/WebDev-Guild/webdev-guild.github.io 
+1. Web Starter Kit - see https://github.com/yrgo/web-starter-kit
+1. GitHub Guide - see https://github.com/antonykidis/GitHub-guide
+1. Web Developers Acheivement Guide - see https://github.com/WebDev-Guild/webdev-guild.github.io 
 
 ## Contributors 
 
