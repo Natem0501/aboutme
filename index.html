@@ -5,133 +5,161 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Nathan Meeker">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+    <link href="navbar-top-fixed.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/nate.css">
 
     <title>Nathan Meeker</title>
 </head>
 
-<body>
+<body class="bgimg">
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#">My Site!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Interaction</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+        </nav>
 
     <header>
         <h1>Hello! This is my page - Nathan Meeker</h1>
     </header>
 
-    <nav></nav>
-
     <hr>
 
-    <main>
+    <main class="container-fluid">
+            <div class="row">
+              <article class="col-sm-8 ">
+                <h2>About Me</h2>
+        
+                <div class="row">
+        
+                  <section class="col-md-5">
+                    <h2>Current</h2>
+                    <p>I am a senior planning to graduate this May with a Bachelors of Science in Interactive 
+                    Digital Media, Computer Science. I will also have finished all the requirements for 
+                    my minor in General Business.</p>
+                  </section>
 
-        <article>
+                  <section class="col-md-5">
+                    <h2>Background</h2>
+                    <p>I originate from Council Bluffs, IA. I went to Abraham Lincoln High School 
+                    (yes, that really was the name of our school), and I enjoy playing sports or watching 
+                    movies. As for prior experience, I worked for my parents' company for most of my life, 
+                    until last year when I got an internship at a tech company called Riverside Technologies. 
+                    I acted as a Computer Technician there over the summer.</p>
+                  </section>
 
-            <section>
+                  <section class="col-md-5">
+                    <h2>Plans</h2>
+                    <p>Since I am in my last semester before graduating, I was lucky enough to land a job in 
+                    Overland Park, KS at an IT health company called Netsmart Technologies. The title of my 
+                    position is a Delivery Analyst. This is the type of position I see myself fitting right 
+                    in to, as I will be using both my communication/business skills and Computer Science 
+                    skills.</p>
+                  </section>
 
-            <h2>Current</h2>
-            I am a senior planning to graduate this May with a Bachelors of Science in Interactive 
-            Digital Media, Computer Science. I will also have finished all the requirements for 
-            my minor in General Business. 
+                </div>
+              </article>
 
-            </section>
-            <section>
+            <aside class="col-sm-4">
 
-            <h2>Background</h2>
-            I originate from Council Bluffs, IA. I went to Abraham Lincoln High School 
-            (yes, that really was the name of our school), and I enjoy playing sports or watching 
-            movies. As for prior experience, I worked for my parents' company for most of my life, 
-            until last year when I got an internship at a tech company called Riverside Technologies. 
-            I acted as a Computer Technician there over the summer. 
+            <p>Something interesting about me is that I just about caught a 100-pound marlin in the 
+            Gulf of Mexico (after 15 minutes of reeling, the line snapped and he got away). Here 
+            are some links to follow:</p>
 
-            </section>
-            <section>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/nathanmeeker/">See me on LinkedIn!</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Natem0501/">See me on GitHub!</a>
+                </li>
+            </ul>
 
-            <h2>Plans</h2>
-            Since I am in my last semester before graduating, I was lucky enough to land a job in 
-            Overland Park, KS at an IT health company called Netsmart Technologies. The title of my 
-            position is a Delivery Analyst. This is the type of position I see myself fitting right 
-            in to, as I will be using both my communication/business skills and Computer Science 
-            skills. 
+            <h3>Past Courses</h3>
+                <ul>
+                    <li>Web Development 1 & 2</li>
+                    <li>Computer Programming 1 & 2</li>
+                    <li>Web Publishing</li>
+                    <li>Network Fundamentals</li>
+                </ul>
 
-            </section>
+                <ol>
+                    <li>
+                        <a href="https://www.nwmissouri.edu/csis/msacs/PDF/Updated%20Syllabus/44-356_NF_Syllabus.pdf">Network Fundamentals</a>
+                    </li>
+                    <li>
+                        <a href="https://www.nwmissouri.edu/csis/msacs/courses.htm">List of Computer Science courses</a>
+                    </li>
+                </ol>
 
-        </article>
+            <h3>Current Courses</h3>
+            <style type="text/css">
+                .tg  {border-collapse:collapse;border-spacing:0;}
+                .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+                .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+                .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+            </style>
+                <table class="table" style="undefined;table-layout: fixed; width: 63px; table-dark: grey">
+                <colgroup>
+                <col style="width: 90px">
+                <col style="width: 90px">
+                <col style="width: 90px">
+                </colgroup>
+                <tr>
+                    <th class="tg-0pky">MW</th>
+                    <th class="tg-0pky">TR</th>
+                    <th class="tg-0pky">F</th>
+                </tr>
+                <tr>
+                    <td class="tg-0pky">Computer Graphics</td>
+                    <td class="tg-0pky">Database Systems</td>
+                    <td class="tg-0pky">IT Proj Management</td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky">Web Apps</td>
+                    <td class="tg-0pky">Comm Law</td>
+                    <td class="tg-0pky"></td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky">IT Proj Management</td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                </tr>
+                </table>
+                <br>
 
-    <aside>
+                <div class="video-wrapper">
+                <iframe width="560" height="315"
+                frameborder="0" src="https://www.youtube.com/embed/dMMjBg4j3LA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                </div>
 
-    Something interesting about me is that I just about caught a 100-pound marlin in the 
-    Gulf of Mexico (after 15 minutes of reeling, the line snapped and he got away). Here 
-    are some links to follow:
+                <br>
+                Nice to meet everyone!
 
-    <ul>
-        <li>
-            <a href="https://www.linkedin.com/in/nathanmeeker/">See me on LinkedIn!</a>
-        </li>
-        <li>
-            <a href="https://github.com/Natem0501/">See me on GitHub!</a>
-        </li>
-    </ul>
-
-    <h3>Past Courses</h3>
-        <ul>
-            <li>Web Development 1 & 2</li>
-            <li>Computer Programming 1 & 2</li>
-            <li>Web Publishing</li>
-            <li>Network Fundamentals</li>
-        </ul>
-
-        <ol>
-            <li>
-                <a href="https://www.nwmissouri.edu/csis/msacs/PDF/Updated%20Syllabus/44-356_NF_Syllabus.pdf">Network Fundamentals</a>
-            </li>
-            <li>
-                <a href="https://www.nwmissouri.edu/csis/msacs/courses.htm">List of Computer Science courses</a>
-            </li>
-        </ol>
-
-    <h3>Current Courses</h3>
-    <style type="text/css">
-        .tg  {border-collapse:collapse;border-spacing:0;}
-        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-        .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-    </style>
-        <table class="tg" style="undefined;table-layout: fixed; width: 63px">
-        <colgroup>
-        <col style="width: 90px">
-        <col style="width: 90px">
-        <col style="width: 90px">
-        </colgroup>
-          <tr>
-            <th class="tg-0pky">MW</th>
-            <th class="tg-0pky">TR</th>
-            <th class="tg-0pky">F</th>
-          </tr>
-          <tr>
-            <td class="tg-0pky">Computer Graphics</td>
-            <td class="tg-0pky">Database Systems</td>
-            <td class="tg-0pky">IT Proj Management</td>
-          </tr>
-          <tr>
-            <td class="tg-0pky">Web Apps</td>
-            <td class="tg-0pky">Comm Law</td>
-            <td class="tg-0pky"></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky">IT Proj Management</td>
-            <td class="tg-0pky"></td>
-            <td class="tg-0pky"></td>
-          </tr>
-        </table>
-        <br>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dMMjBg4j3LA" 
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-
-        <br>
-        Nice to meet everyone!
-
-    </aside>  
+            </aside> 
+        </div>
     </main>
 
     <br>
