@@ -8,7 +8,7 @@ body {padding-top: 5rem}
 .bgimg {
         height: 100%;
         position: relative;
-        opacity: 0.85;
+        opacity: 0.93;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -85,7 +85,15 @@ hr {background-color: white}
         opacity: 100%;
 }
 
-
+#brandimg {
+  height: 43px;
+  width: 43px;
+  background-color: #bbb;
+  color: black;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
 
 
 
