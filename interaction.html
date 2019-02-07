@@ -15,10 +15,10 @@
     <title>Interaction</title>
 </head>
 
-<body class="bgimg" background="images/chicago3.JPG">
+<body class="bgimg" style="background-image: url(images/chicago3.JPG)">
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="index.html" alt="NM" id="brandimg">NM</a>
+            <a class="navbar-brand" href="index.html" id="brandimg">NM</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,7 +42,7 @@
     </nav>
 
 <header>
-    <h1><span style="color:black">Interactive Web App</span></h1>
+    <h1><span style="color:black">Interactive Weight Converter</span></h1>
 </header>
 
 <hr>
@@ -50,19 +50,20 @@
 
 <main class="container-fluid">
 
-    <div class="row">
-    <article class="col-sm-8 ">
+    <article class="col-sm-9">
+    <h2 style="color:black">Try Me!</h2>
 
-    <section class="col-md-8">
+    <section class="col-md-9">
+        <h4>Enter the weight you would like to convert!</h4>
     <p>
         <label>Pounds</label>
         <input id="inputPounds" type="number" placeholder="Pounds"
         oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
     </p>
     </section>
-    </div>
 
-    <section class="col-md-8">
+    <section class="col-md-9">
+        <h4>Below are the different weight conversions:</h4>
         <p>Grams: <span id="outputGrams"></span></p>
         <p>Ounces: <span id="outputOunces"></span></p>
         <p>Stones: <span id="outputStones"></span></p>
