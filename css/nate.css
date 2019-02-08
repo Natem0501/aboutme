@@ -16,10 +16,10 @@ body {padding-top: 5rem}
       }
 
 section {
-        margin: 1rem;
+        margin: 0.5rem;
         padding: 1rem;
         background-color: rgb(0, 0, 0);
-        border-radius: 2em;
+        border-radius: 0;
         color: white;
 }
 
@@ -81,6 +81,15 @@ hr {background-color: white}
         background-color: #007bb5
     }
 
+
+.mysocialnav {
+  padding: 10px;
+}
+.mysocialnav:hover {
+  opacity: 0.4; 
+}
+
+
 #img-container {
         opacity: 100%;
 }
@@ -110,6 +119,7 @@ hr {background-color: white}
         width: 100%;
         padding: 12px;
         border: 1px solid #ccc;
+        background-color: lightgrey;
         margin-top: 6px;
         margin-bottom: 16px;
         resize: vertical;
