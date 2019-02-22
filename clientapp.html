@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+    <!-- <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/nate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    Bootstrap CSS
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/qunit/qunit-2.9.1.js"></script>
+    <script src="qunitTest.js"></script>   -->
+
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.2.css">
     <meta charset="UTF-8" />
     <link rel="shortcut icon" type="image/favicon" href="images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,9 +21,11 @@
     crossorigin="anonymous">
     <link href="navbar-top-fixed.css" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/nate.css">
+    <script src="https://code.jquery.com/qunit/qunit-2.9.1.js"></script>
+    <script src="qunitTest.js"></script>
+
 
     <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -22,18 +35,7 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
 
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-          $("a").click(function(event){
-            alert("You clicked me!");
-          });
-        });
-    </script> 
-
-
-
-    <title>Client App</title>
+    <title>QUnit Test</title>
 </head>
 
 <body class="bgimg" style="background-image: url(images/techno.jpg); opacity: 20%;">
@@ -55,7 +57,7 @@
                   <a class="nav-link" href="interaction.html">Interaction</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="clientapp.html">Client App</a>
+                    <a class="nav-link" href="clientapp.html">QUnit</a>
                 </li>
               </ul>
               <ul class="nav navbar-nav ml-auto">
@@ -70,7 +72,7 @@
     </nav>
 
 <header>
-    <h1>P3: Interactive Client App</h1>
+    <h1>P3: Interactive Client App QUnit Test</h1>
 </header>
 
 <hr>
@@ -78,23 +80,23 @@
 
 <main class="container-fluid">
 
-    <article class="col-sm-9">
+    <article class="col-sm">
     <h2>Hello</h2>
 
-    <section class="col-md-9">
+    <section class="col-md">
         <h4>BLAH BLAH BLAH</h4>
         <br>
-    </section>
-
-    <section class="col-md-9">
-        <h4>BLAH BLAH BLAH</h4>
-        <a href="#">Click Me</a>
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script> 
     </section>
 
     </article>
 
 </main>
-
 
 <br>
 
