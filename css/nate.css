@@ -173,3 +173,14 @@ hr {background-color: white}
           margin-top: 0;
         }
       }
+
+
+    .nav-link {
+        color: rgba(255,255,255,.5);
+    }
+    .nav-link:hover {
+      color: rgba(255, 255, 255, 0.863);
+  }
+    .footertext {
+      color: rgba(255,255,255,.5);
+    }
